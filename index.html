@@ -2,25 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
     <title>IMC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
-    </div>
+    
+    <h1 class="titulo">Cálculo de IMC</h1>
+    
     <div>
-        <input class="input" type="text" />
+        
+            <input type="number" id="altura" name="alura" placeholder="Altura" />
+            <input type="number" id="peso" name="peso" placeholder="Peso" />
+
+            <select id="sexo" name="sexo">
+                <option>Escolha o Sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+
+            <input type="checkbox" id="idoso" name="idoso" value="idoso">
+            <label for="idoso"> Eu tenho 65 anos ou mais</label>
+
+            <input type="button" class="calcularImc" value="Calcular meu IMC">
+            <input type="button" class="analisecalculo" value="Entenda o cálculo">
+
     </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
+
 </body>
 
 </html>
