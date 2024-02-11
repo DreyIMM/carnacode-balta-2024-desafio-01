@@ -5,6 +5,12 @@ body{
 
 .titulo{
     text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.buttons{
+    margin-top: 20px;
 }
 
 input[type=text], input[type=number], select {
