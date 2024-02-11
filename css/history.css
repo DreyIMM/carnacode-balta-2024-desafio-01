@@ -1,0 +1,155 @@
+:root {
+    --main-bg-color:grey;
+    --main-bg-input:#f6f6f6;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+}
+
+/*#region container logo and title*/
+.container-logo {
+    display: flex;
+    margin:auto;
+    margin-top:3rem;
+    font-size: 16px;
+}
+
+.container-title {
+    margin:auto;
+    padding: 15px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin:1rem .4rem .4rem 1rem;
+}
+
+.container-search::placeholder {
+    color: #BDBDBD;
+    font-size: 19px;
+    font-weight: 300;
+  }
+
+.container-search {
+    background-color: #F6F6F6;
+    background-size: 1.7rem;
+    border: 0.5px solid #E8E8E8  ;
+    margin:.2rem .5rem;
+    padding:.7rem;
+    margin-bottom: 25px;
+    font-size:1.5rem;
+    border-radius:5rem;
+}
+
+hr{
+    margin-top: 15px;
+    border: 0.9px solid #E8E8E8;
+}
+
+.container-history {
+    margin: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: flex-start;
+}
+
+.image-history{
+    margin-right: 20px;
+}
+
+.content-card{
+    font-size: 16px;
+}
+
+.content-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.categoria{
+    font-weight: bold;
+}
+
+.minuto{
+    color: #522020;
+}
+
+.data{
+    color:#BDBDBD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
